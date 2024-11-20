@@ -5,7 +5,7 @@ import seaborn as sns
 df_sales = pd.read_excel('linechart.xlsx')
 plt.figure(figsize=(12,4))
 plt.plot(df_sales['Quarter'],df_sales['Fridge'],color = 'blue',label = 'ridge') #provide x axis and y axis
- #can increase the size of the graph
+ #can increase the size of the graphAd
 plt.plot(df_sales['Quarter'],df_sales['Dishwasher'],color = 'green',label = 'Dishwasher') 
 plt.plot(df_sales['Quarter'],df_sales['Washing Machine'],color = 'orange',label = 'Washing Machine') 
 plt.title('Product Sales') #add the title to the chart

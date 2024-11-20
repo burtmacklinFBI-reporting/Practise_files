@@ -70,7 +70,7 @@ class LinkedList:
         itr = self.head
         while itr.next:
             if count == index - 1:
-                itr.next = itr.next.next
+                itr.next = itr.next.next #very good logic that we can use.
                 break
 
             itr = itr.next

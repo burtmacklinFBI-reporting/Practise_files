@@ -32,7 +32,7 @@ class Hashtable:
             found = False
             for ind,i  in enumerate(self.arr[index]):
              if len(i) == 2 and i[0] == key :
-              self.arr[index][ind] = (key, value)
+              self.arr[index][ind] = (key, value) #will update the value for the same key and will append if it is not present
               found = True
             if not found:
               self.arr[index].append((key,value))

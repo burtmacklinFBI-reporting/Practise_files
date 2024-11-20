@@ -38,4 +38,4 @@ for i in range(1,6):
  
 
 
-
+#you can also use enumerate function to loop through the list.
